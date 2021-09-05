@@ -113,7 +113,6 @@ public class PlayerAPI {
 	public static HashMap<Player, String> jogador29 = new HashMap<Player, String>();
 	public static HashMap<Player, String> jogador30 = new HashMap<Player, String>();
 	
-	@SuppressWarnings("deprecation")
 	public static void LimparPlayers() {
 		for (Player Jogadores : Bukkit.getOnlinePlayers()) {
 			Ganhador.remove(Jogadores);
@@ -3841,7 +3840,6 @@ public class PlayerAPI {
 		Tempo.mandarBroadcast(ChatColor.DARK_RED + ChatColor.BOLD.toString() + "RDM: " + ChatColor.GRAY + "Escolhendo Primeiro Jogador!");
 		new BukkitRunnable() {
 			
-			@SuppressWarnings("deprecation")
 			@Override
 			public void run() {
 				Jogador1.sendMessage(ChatColor.GREEN + "Você é o primeiro Jogador da RDM!");
@@ -3940,7 +3938,6 @@ public class PlayerAPI {
 		}.runTaskLater(Main.getPlugin(), 20L);
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void IrParaProximaBatalha(Player Jogador) {
 		
 		if (Main.Evento == Estado.INICIANDO || Main.Evento == Estado.FECHADO) {
@@ -4045,7 +4042,6 @@ public class PlayerAPI {
 		}.runTaskLaterAsynchronously(Main.getPlugin(), 20L);
 	}
 	
-	@SuppressWarnings("deprecation")
 	public static void AdicionarRDM(Player Jogador) {
 		
 		if (Main.Evento == Estado.ANDAMENTO || Main.Evento == Estado.FECHADO) {
@@ -4205,7 +4201,6 @@ public class PlayerAPI {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	public static void AdicionarRDMCheio(Player Jogador) {
 		
 		if (Main.Evento == Estado.ANDAMENTO || Main.Evento == Estado.FECHADO) {
@@ -4880,7 +4875,6 @@ public class PlayerAPI {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void RemoverRDM(Player Jogador) {
 		
 		if (Main.Evento == Estado.FECHADO) {
@@ -5287,7 +5281,6 @@ public class PlayerAPI {
 		}
 	}
 
-	@SuppressWarnings("deprecation")
 	public static void CheckarGanhador(Player Jogador) {
 		
 		if (Participando.size() == 1) {

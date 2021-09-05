@@ -59,7 +59,6 @@ public abstract class ClassBuilder {
 	}
 
 	public static Object buildWitherSkullSpawnPacket(Object skull) throws Exception {
-		@SuppressWarnings("deprecation")
 		Object spawnPacketSkull = NMSClass.PacketPlayOutSpawnEntity.getConstructor(NMSClass.Entity, int.class).newInstance(skull, EntityType.WITHER_SKULL.getTypeId());
 		AccessUtil.setAccessible(NMSClass.PacketPlayOutSpawnEntity.getDeclaredField("j")).set(spawnPacketSkull, 66);
 

@@ -92,7 +92,6 @@ public class ScreenShare implements CommandExecutor, Listener {
 		}
 		return false;
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onQuit(PlayerQuitEvent e) {
 		Player p = e.getPlayer();

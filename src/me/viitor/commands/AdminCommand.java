@@ -31,7 +31,6 @@ public class AdminCommand implements CommandExecutor, Listener{
 	public static HashMap<Player, ItemStack[]> armadura = new HashMap<Player, ItemStack[]>();
 	public static HashMap<Player, String> warp = new HashMap<Player, String>();
 	public static HashMap<Player, String> kit = new HashMap<Player, String>();
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	private void interact(PlayerInteractEvent e){
 		
@@ -146,7 +145,6 @@ public class AdminCommand implements CommandExecutor, Listener{
 				p.openInventory(t.getInventory());
 			}
 	}
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender Sender, Command Cmd, String Label, String[] Args) {
 		
@@ -220,7 +218,6 @@ public class AdminCommand implements CommandExecutor, Listener{
 		}
 		return false;
 	}
-	@SuppressWarnings("deprecation")
 	public static void setAdmin(Player p){
 		for(Player todos : Bukkit.getOnlinePlayers()) {
 			if(!cfGrupo.ChecarGrupo(todos, "Dono") && !cfGrupo.ChecarGrupo(todos, "Admin") && !cfGrupo.ChecarGrupo(todos, "Gerente") && !cfGrupo.ChecarGrupo(todos, "Mod+") && !cfGrupo.ChecarGrupo(todos, "Mod") && !cfGrupo.ChecarGrupo(todos, "Trial") && !cfGrupo.ChecarGrupo(todos, "Youtuber+")) {
@@ -229,7 +226,6 @@ public class AdminCommand implements CommandExecutor, Listener{
 			}
 		}
 	}
-	@SuppressWarnings("deprecation")
 	public static void checarAdmin(){
 		
 		for(Player todos : Bukkit.getOnlinePlayers()){

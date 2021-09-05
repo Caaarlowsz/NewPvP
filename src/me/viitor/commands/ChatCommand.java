@@ -13,7 +13,6 @@ import me.viitor.API.API;
 import me.viitor.configuração.cfGrupo;
 import me.viitor.events.CorGrupo;
 
-@SuppressWarnings("deprecation")
 public class ChatCommand implements CommandExecutor, Listener{
 	  public static boolean pausado = false;
 	@Override

@@ -14,7 +14,6 @@ import me.viitor.API.KitAPI;
 
 public class Thor implements Listener{
 	
-	  @SuppressWarnings("deprecation")
 	@EventHandler
 	  public void ThorKit(PlayerInteractEvent e)
 	  {

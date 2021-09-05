@@ -42,7 +42,6 @@ public class VillagerParkour implements CommandExecutor, Listener {
 		}
 		return false;
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void aoClicar(PlayerInteractEntityEvent e) {
 	    if ((e.getRightClicked() instanceof Villager && !ArraysAPI.Admin.contains(e.getPlayer()))) {

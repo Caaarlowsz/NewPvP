@@ -7,8 +7,6 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import me.viitor.bans.API;
-import me.viitor.bans.Config;
 import me.viitor.configuração.cfGrupo;
 
 public class PardonCommand implements CommandExecutor {
@@ -17,7 +15,6 @@ public class PardonCommand implements CommandExecutor {
 		return (String)Config.getConfig().getIpBans().get("IPBans." + vitima.getUniqueId() + ".IP do Jogador");
 	}
 	
-	@SuppressWarnings("deprecation")
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
 		Player jogador = (Player)sender;

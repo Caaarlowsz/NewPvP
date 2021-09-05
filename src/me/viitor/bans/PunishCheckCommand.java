@@ -12,7 +12,6 @@ import me.viitor.configuração.cfGrupo;
 
 public class PunishCheckCommand implements CommandExecutor {
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		final Player jogador = (Player) sender;

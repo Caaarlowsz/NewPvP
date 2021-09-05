@@ -18,14 +18,12 @@ public class Tempo {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	public static void mandarBroadcast(String Menssagem) {
 		for (Player Jogadores : Bukkit.getOnlinePlayers()) {
 			Jogadores.sendMessage(Menssagem);
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	private void mandarAvisos() {
 		mandarBroadcast("§6§lNew§f§lPvP §6» §7O evento sera iniciado em §6" + FormatoTempo(Iniciando) + "§7. §6(" + PlayerAPI.Participando.size() + "/30)");
 		mandarBroadcast("§6§lNew§f§lPvP §6» §7Para entrar no evento, digite /entrar");
@@ -64,7 +62,6 @@ public class Tempo {
 		if (Main.Evento == Estado.INICIANDO) {
 			Tempo = Integer.valueOf(Bukkit.getScheduler().scheduleSyncRepeatingTask(Main.getPlugin(), new Runnable() {
 					
-				@SuppressWarnings("deprecation")
 				public void run() {
 					Iniciando -= 1;
 					if (Iniciando == 300) {

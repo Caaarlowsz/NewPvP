@@ -8,7 +8,6 @@ import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
-import me.viitor.API.TopKillStreak;
 import me.viitor.main.Main;
 
 public class cfStatus {
@@ -81,7 +80,6 @@ public class cfStatus {
         Save();
     }
     
-    @SuppressWarnings("deprecation")
 	public static void RemoverKS(Player p) {
         cfile.set(p.getName() + ".Ks", getKillStreak(p) - getKillStreak(p));
         

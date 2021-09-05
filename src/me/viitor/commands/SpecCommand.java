@@ -14,7 +14,6 @@ import me.viitor.events.CorGrupo;
 public class SpecCommand implements CommandExecutor{
 	
 	
-	@SuppressWarnings("deprecation")
 	public static void setON(Player p){
 		for(Player todos : Bukkit.getOnlinePlayers()){
 		if(ArraysAPI.Admin.contains(todos) && !ArraysAPI.Spec.contains(p)){
@@ -24,7 +23,6 @@ public class SpecCommand implements CommandExecutor{
 		   }
 		}
 	}
-	@SuppressWarnings("deprecation")
 	public static void setOFF(Player p){
 		for(Player todos : Bukkit.getOnlinePlayers()){
 		if(ArraysAPI.Admin.contains(todos) && ArraysAPI.Spec.contains(p)){

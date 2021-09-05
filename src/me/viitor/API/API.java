@@ -270,7 +270,6 @@ public class API {
 			}
 		 }, 2L);
 	}
-	@SuppressWarnings("deprecation")
 	public static void checarAlgumasCoisas(Player p){
 		
 		 if(!cfGrupo.ChecarGrupo(p, "Dono") && !cfGrupo.ChecarGrupo(p, "Gerente") && !cfGrupo.ChecarGrupo(p, "Admin") && !cfGrupo.ChecarGrupo(p, "Mod+") && !cfGrupo.ChecarGrupo(p, "Mod") && !cfGrupo.ChecarGrupo(p, "Youtuber+") && !cfGrupo.ChecarGrupo(p, "Pro") && !cfGrupo.ChecarGrupo(p, "Youtuber")
@@ -613,7 +612,6 @@ public static void AutomaticMessage() {
 			kCaixas.setLore(Arrays.asList("§7Ganhe KITS validos por 1 dia", "§7a cada 24 horas"));
 			Caixas.setItemMeta(kCaixas);
 			
-			@SuppressWarnings("deprecation")
 			ItemStack KitPadrao = new ItemStack(Material.getMaterial(351), 1, (short)14);
 			ItemMeta kKitPadrao = KitPadrao.getItemMeta();
 			kKitPadrao.setDisplayName("§6» §7Kit PADRAO");
@@ -728,7 +726,6 @@ public static void AutomaticMessage() {
 		kCaixas.setLore(Arrays.asList("§7Ganhe KITS validos por 1 dia", "§7a cada 24 horas"));
 		Caixas.setItemMeta(kCaixas);
 		
-		@SuppressWarnings("deprecation")
 		ItemStack KitPadrao = new ItemStack(Material.getMaterial(351), 1, (short)14);
 		ItemMeta kKitPadrao = KitPadrao.getItemMeta();
 		kKitPadrao.setDisplayName("§6» §7Kit PADRAO");
@@ -753,7 +750,6 @@ public static void AutomaticMessage() {
 		p.getInventory().setItem(3, Vidro);
 		p.getInventory().setItem(5, Vidro);
 	}
-	@SuppressWarnings("deprecation")
 	public static void sendWarn(String msg) {
 		for(Player todos : Bukkit.getOnlinePlayers()) {
 			if(cfGrupo.ChecarGrupo(todos, "Dono") || cfGrupo.ChecarGrupo(todos, "Gerente")) {

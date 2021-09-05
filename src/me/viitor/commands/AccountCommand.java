@@ -28,7 +28,6 @@ public class AccountCommand implements CommandExecutor {
 			}
 			Player acc = Bukkit.getPlayer(args[0]);
 			if(acc == null) {
-				@SuppressWarnings("deprecation")
 				OfflinePlayer off = Bukkit.getOfflinePlayer(args[0]);
 				if(Config.getConfig().getJogadores().get("Jogadores." + off.getUniqueId()) == null) {
 					API.sendMsg(p, "§6§lNew§f§lPvP §6» §7O jogador " + off.getName() + " nunca entrou no servidor");

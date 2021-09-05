@@ -17,7 +17,7 @@ public class NametagManager {
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private static HashMap<TeamInfo, List<String>> teams = new HashMap();   
 	
-	@SuppressWarnings({ "unchecked", "deprecation", "rawtypes" })
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private static void AdicinarTeam(TeamInfo Team, String Jogador) {
 		RemoverTeam(Jogador);
         List<String> List = (List)teams.get(Team);
@@ -55,7 +55,7 @@ public class NametagManager {
 		teams.remove(Team);
 	}
         
-	@SuppressWarnings({ "unchecked", "deprecation", "rawtypes" })
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	private static TeamInfo RemoverTeam(String Jogador) {
         for (TeamInfo Team : (TeamInfo[])teams.keySet().toArray(new TeamInfo[teams.size()])) {
         	List<String> list = (List)teams.get(Team);
@@ -239,7 +239,7 @@ public class NametagManager {
 		}
 	}
  
-	@SuppressWarnings({ "rawtypes", "deprecation" })
+	@SuppressWarnings("rawtypes")
 	private static void MandarPacketsAdicionarTeams(TeamInfo Team) {
 		try {
 			for (Player Jogadores : Bukkit.getOnlinePlayers()) {
@@ -253,7 +253,7 @@ public class NametagManager {
 		}
 	}
 
-	@SuppressWarnings({ "deprecation", "rawtypes" })
+	@SuppressWarnings("rawtypes")
 	private static void MandarPacketsRemoverTeams(TeamInfo Team) {
 		boolean Cont = false;
 		for (TeamInfo Team2 : PegarTeams()) {
@@ -276,7 +276,6 @@ public class NametagManager {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	private static void MandarPacketsAdicinarTeams(TeamInfo Team, String Jogador) {
 		boolean Cont = false;
 		for (TeamInfo Team2 : PegarTeams()) {
@@ -301,7 +300,6 @@ public class NametagManager {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	private static void MandarPacketsRemoverTeams(TeamInfo Team, String Jogador) {
 		boolean Cont = false;
 		for (TeamInfo Team2 : PegarTeams()) {

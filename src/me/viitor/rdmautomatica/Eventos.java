@@ -17,7 +17,6 @@ import me.viitor.main.Main;
 
 public class Eventos implements Listener {
 
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onPlayerQuitEvent(PlayerQuitEvent Evento) {
 		Player Jogador = Evento.getPlayer();
@@ -116,7 +115,6 @@ public class Eventos implements Listener {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onPlayerDeathEvent(PlayerDeathEvent Evento) {
 		
@@ -224,7 +222,6 @@ public class Eventos implements Listener {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onPlayerJoinEvent(PlayerJoinEvent Evento) {
 		

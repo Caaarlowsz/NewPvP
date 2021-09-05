@@ -28,7 +28,6 @@ public class SpawnCommand implements CommandExecutor{
 			p.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 9999, 9999));
 			
 			Bukkit.getScheduler().scheduleSyncDelayedTask(Main.getPlugin(), new Runnable() {
-				@SuppressWarnings("deprecation")
 				public void run() {
 					
 					  TopKillStreak.Ks.put(p, Integer.valueOf(0));

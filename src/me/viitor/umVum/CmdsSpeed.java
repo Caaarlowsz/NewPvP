@@ -18,7 +18,6 @@ import me.viitor.scoreboard.sScoreAPI;
  public class CmdsSpeed
    implements CommandExecutor
  {
-   @SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
    {
     final Player p = (Player)sender;

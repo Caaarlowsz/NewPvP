@@ -261,7 +261,6 @@ public class eEvents implements Listener{
 				API.checarNameTag(p);
 	  }
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void join(PlayerJoinEvent e){
 		
@@ -363,7 +362,6 @@ public class eEvents implements Listener{
 		}
 		ArraysAPI.CooldownChat.remove(p);
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void death(PlayerDeathEvent e){
 		
@@ -584,7 +582,6 @@ public class eEvents implements Listener{
 			evento.setCancelled(false);	
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	void BuildBreak(BlockBreakEvent evento) {
 		

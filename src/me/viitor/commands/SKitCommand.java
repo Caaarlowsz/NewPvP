@@ -19,7 +19,6 @@ public class SKitCommand implements CommandExecutor {
 	public static HashMap<String, ItemStack[]> itens = new HashMap<String, ItemStack[]>();
 	public static HashMap<String, ItemStack[]> armadura = new HashMap<String, ItemStack[]>();
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;

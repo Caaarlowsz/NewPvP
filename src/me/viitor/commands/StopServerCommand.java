@@ -10,7 +10,6 @@ import me.viitor.configuração.cfGrupo;
 
 public class StopServerCommand implements CommandExecutor {
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;

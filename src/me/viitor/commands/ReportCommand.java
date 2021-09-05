@@ -21,7 +21,6 @@ public class ReportCommand implements CommandExecutor{
 public ArrayList<String> reported = new ArrayList();
 
 
-@SuppressWarnings("deprecation")
 public boolean onCommand(CommandSender Sender, Command Cmd, String Label, String[] Args){
 	  
     final Player p = (Player)Sender;

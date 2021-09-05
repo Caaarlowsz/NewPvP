@@ -27,7 +27,6 @@ public class TempGroupSetCommand implements CommandExecutor{
 	
 	
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender Sender, Command Cmd, String Label, String[] Args) {
 

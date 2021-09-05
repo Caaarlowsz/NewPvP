@@ -64,7 +64,6 @@ public class Utills {
 		}
 	}
 	
-	@SuppressWarnings("deprecation")
 	public static void sendAntiCheat(String Menssagem) {
 		
 		for (Player playeres : Bukkit.getOnlinePlayers()) {

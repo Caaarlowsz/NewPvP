@@ -12,7 +12,6 @@ import me.viitor.main.Main;
 
 public class DicaCommand implements CommandExecutor{
 
-	@SuppressWarnings("deprecation")
 	public boolean onCommand(CommandSender Sender, Command Cmd, String Label, String[] Args) {
 		
 		Player p = (Player)Sender;

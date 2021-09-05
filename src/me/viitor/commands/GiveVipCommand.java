@@ -14,7 +14,6 @@ import me.viitor.tab_1_8.TituloAPI;
 
 public class GiveVipCommand implements CommandExecutor {
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;

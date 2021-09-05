@@ -24,7 +24,6 @@ public class TodosKits2Menu {
 		
 		return item;
 	}
-	@SuppressWarnings("deprecation")
 	public static void inventory(Player p){
 		
 		Inventory menu = Bukkit.createInventory(p, 54, "§aTodos os Kits 2/2");

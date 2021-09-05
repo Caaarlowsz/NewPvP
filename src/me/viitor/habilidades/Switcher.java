@@ -14,7 +14,6 @@ import me.viitor.API.KitAPI;
 
 public class Switcher implements Listener {
 	
-	  @SuppressWarnings("deprecation")
 	  @EventHandler
 	    public void snowball(EntityDamageByEntityEvent e) {
 	      if (((e.getDamager() instanceof Snowball)) && 

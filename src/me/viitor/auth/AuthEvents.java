@@ -22,7 +22,6 @@ import org.bukkit.scheduler.BukkitRunnable;
 import me.viitor.configuração.cfGrupo;
 import me.viitor.main.Main;
 
-@SuppressWarnings("deprecation")
 public class AuthEvents implements Listener {
 	
 	@EventHandler

@@ -28,7 +28,6 @@ public class TopKillStreak implements Listener{
 			return 0;
 		}
 	}
-	@SuppressWarnings({ "deprecation" })
 	public static void createTopKillStreak(Player player) {
 		for (Player players : Bukkit.getOnlinePlayers()) {
 					if (Ks.get(player) > Ks.get(players)) {

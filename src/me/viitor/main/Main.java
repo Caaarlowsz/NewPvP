@@ -156,7 +156,6 @@ import me.viitor.umVum.CmdsSpeed;
 import me.viitor.umVum.Events1v1;
 import me.viitor.umVum.Speed1v1;
 
-@SuppressWarnings("deprecation")
 public class Main extends JavaPlugin{
 	
 	public static BlinkEffect bk = new BlinkEffect();

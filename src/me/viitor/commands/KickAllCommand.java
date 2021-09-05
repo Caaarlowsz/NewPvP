@@ -12,7 +12,6 @@ import me.viitor.events.CorGrupo;
 
 public class KickAllCommand implements CommandExecutor {
 	
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;

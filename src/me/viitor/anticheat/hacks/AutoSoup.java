@@ -22,7 +22,6 @@ public class AutoSoup implements Listener {
 
 	private static HashMap<UUID, Long> JogadorSendoAtacado = new HashMap<UUID, Long>();
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void onSoup(PlayerInteractEvent e) {
 		Player p = e.getPlayer();

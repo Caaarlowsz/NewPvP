@@ -14,7 +14,6 @@ import me.viitor.configuração.cfStatus;
 
 public class CliqueInventory implements Listener{
 	
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickartodoskits(InventoryClickEvent e){
 		
@@ -49,7 +48,6 @@ public class CliqueInventory implements Listener{
 	    	}
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickartodoskits2(InventoryClickEvent e){
 		
@@ -85,7 +83,6 @@ public class CliqueInventory implements Listener{
 	    	}
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarlojavips(InventoryClickEvent e){
 		
@@ -114,7 +111,6 @@ public class CliqueInventory implements Listener{
 			}
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarwarps(InventoryClickEvent e){
 		
@@ -178,7 +174,6 @@ public class CliqueInventory implements Listener{
 		}
 	  }
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarloja2(InventoryClickEvent e){
 		
@@ -250,7 +245,6 @@ public class CliqueInventory implements Listener{
 		  }
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarloja(InventoryClickEvent e){
 		
@@ -489,7 +483,6 @@ public class CliqueInventory implements Listener{
 		  }
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarkits2(InventoryClickEvent e){
 		
@@ -537,7 +530,6 @@ public class CliqueInventory implements Listener{
 		}
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarkits(InventoryClickEvent e){
 		
@@ -704,7 +696,6 @@ public class CliqueInventory implements Listener{
 			}
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarkitspadrao2(InventoryClickEvent e){
 		
@@ -765,7 +756,6 @@ public class CliqueInventory implements Listener{
 		  }
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clickarkitspadrao(InventoryClickEvent e){
 		

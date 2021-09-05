@@ -16,7 +16,6 @@ import me.viitor.tab_1_8.TituloAPI;
 
 public class GroupSetCommand implements CommandExecutor{
 
-	@SuppressWarnings({ "deprecation" })
 	@Override
 	public boolean onCommand(CommandSender Sender, Command Cmd, String Label, String[] Args) {
 		

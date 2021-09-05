@@ -26,12 +26,11 @@ public ArrayList<String> Cima = new ArrayList();
 private ArrayList<Block> remover = new ArrayList();
 
  
-  @SuppressWarnings("deprecation")
 @EventHandler
   public void Clicar(PlayerInteractEvent e) {
     Player p = e.getPlayer();
     if ((p instanceof Player))  {
-      if (p.getItemInHand().equals(Integer.valueOf(260))) {
+      if (p.getItemInHand().getTypeId() == 260) {
       }
       if (!e.getAction().name().contains("RIGHT")) {
         return;

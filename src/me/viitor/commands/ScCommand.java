@@ -13,7 +13,6 @@ import org.bukkit.event.player.PlayerChatEvent;
 import me.viitor.configuração.cfGrupo;
 import me.viitor.staffmanager.GroupManager;
 
-@SuppressWarnings("deprecation")
 public class ScCommand  implements Listener, CommandExecutor {
 	  @SuppressWarnings({ "unchecked", "rawtypes" })
 	  

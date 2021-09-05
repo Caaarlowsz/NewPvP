@@ -10,7 +10,6 @@ import me.viitor.configuração.cfGrupo;
 
 public class InvisCommand implements CommandExecutor {
 	
-	@SuppressWarnings("deprecation")
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;
 		if(cmd.getName().equalsIgnoreCase("invis")) {

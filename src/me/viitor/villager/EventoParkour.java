@@ -35,7 +35,6 @@ public class EventoParkour implements Listener{
 				return;
 			}
 		}
-		@SuppressWarnings("deprecation")
 		@EventHandler
 		public void clickar(PlayerInteractEvent e){
 			

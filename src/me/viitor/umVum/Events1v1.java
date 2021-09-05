@@ -74,7 +74,6 @@ public static List<Player> ChamouDuelo = new ArrayList();
      }
    }
 
-@SuppressWarnings("deprecation")
  @EventHandler
    public void PlayerInteractEntityEvent3(PlayerInteractEntityEvent event)
   {
@@ -161,7 +160,6 @@ public static List<Player> ChamouDuelo = new ArrayList();
        }
    }
 
-@SuppressWarnings("deprecation")
   @EventHandler
    public void Morrer2(PlayerDeathEvent e) { Player v = e.getEntity();
     e.setDeathMessage("");
@@ -249,7 +247,6 @@ public static List<Player> ChamouDuelo = new ArrayList();
        }
     }
    } 
-   @SuppressWarnings("deprecation")
 @EventHandler
    public void Morrer3(PlayerDeathEvent e)   {
      Player v = e.getEntity();
@@ -341,7 +338,6 @@ public static List<Player> ChamouDuelo = new ArrayList();
       }
    }
   } 
-   @SuppressWarnings("deprecation")
 @EventHandler(priority=EventPriority.HIGHEST)
    public void onPlayerLeft(PlayerQuitEvent e){
      Player p = e.getPlayer();
@@ -412,7 +408,6 @@ public int itemsInInventory(Inventory inventory, Material[] search) {
      }
     return found;
   }
-   @SuppressWarnings("deprecation")
 @EventHandler
    public void PlayerInteractEntityEvent2(PlayerJoinEvent e) {
     Player p = e.getPlayer();

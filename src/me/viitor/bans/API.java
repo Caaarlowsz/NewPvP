@@ -70,7 +70,6 @@ public class API {
 	}
 	
 	
-	@SuppressWarnings("deprecation")
 	public static void sendStaff(String Msg) {
 		
 		for (Player jogadores : Bukkit.getOnlinePlayers()) {

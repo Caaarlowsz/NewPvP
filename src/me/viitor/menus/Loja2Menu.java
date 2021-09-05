@@ -24,7 +24,6 @@ public class Loja2Menu {
 		
 		return item;
 	}
-	@SuppressWarnings("deprecation")
 	public static void inventory(Player p){
 		
 		Inventory menu = Bukkit.createInventory(p, 54, "§aLoja de Kits 2/2");

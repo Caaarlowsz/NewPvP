@@ -30,7 +30,6 @@ public class Comando implements CommandExecutor {
 		
 	}
 	
-	@SuppressWarnings("deprecation")
 	public boolean onCommand(CommandSender Sender, Command Comando, String Label, String[] Args) {
 		if (!(Sender instanceof Player)) {
 			return true;

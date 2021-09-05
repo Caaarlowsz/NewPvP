@@ -25,7 +25,6 @@ public class PadraoMenu {
 		
 		return item;
 	}
-	@SuppressWarnings("deprecation")
 	public static void inventory(Player p){
 		
 		Inventory menu = Bukkit.createInventory(p, 54, "§aEscolha o Kit Padrao 1/2");

@@ -30,7 +30,6 @@ public class OpenInventory implements Listener{
 		WarpsMenu.inventory(p);
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void abrirConfig(PlayerInteractEvent e){
 		Player p = e.getPlayer();

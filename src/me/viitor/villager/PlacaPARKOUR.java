@@ -27,7 +27,6 @@ public class PlacaPARKOUR implements Listener {
 			e.setLine(3, " ");
 		}
 	}
-	@SuppressWarnings("deprecation")
 	@EventHandler
 	public void clicar(PlayerInteractEvent e) {
 		Player p = e.getPlayer();

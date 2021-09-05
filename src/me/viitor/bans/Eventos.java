@@ -54,7 +54,7 @@ import me.viitor.bans.API;
 import me.viitor.bans.Config;
 import me.viitor.main.Main;
 
-@SuppressWarnings({ "unused", "deprecation" })
+@SuppressWarnings("unused")
 public class Eventos implements Listener {
 
 	@EventHandler

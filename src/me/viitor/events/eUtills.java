@@ -65,7 +65,6 @@ import me.viitor.main.Main;
 import me.viitor.scoreboard.sScoreAPI;
 
 
-@SuppressWarnings("deprecation")
 public class eUtills implements Listener{
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })

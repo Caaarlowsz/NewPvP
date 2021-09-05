@@ -67,7 +67,7 @@ public class MoveCheck implements Runnable {
 		Instance = this;
 	}
   
-	@SuppressWarnings({ "deprecation", "rawtypes", "unchecked" })
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public void run() {
 		Player[] arrayOfJogador;
 		int j = (arrayOfJogador = Bukkit.getOnlinePlayers()).length;

@@ -125,7 +125,6 @@ public class cfStatus {
         Save();
     }
     
-    @SuppressWarnings("deprecation")
 	public static void RemoverKS(Player p) {
         cfile.set(p.getName() + ".Ks", getKillStreak(p) - getKillStreak(p));
         

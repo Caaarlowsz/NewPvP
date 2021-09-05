@@ -29,7 +29,6 @@ public class API {
 	
 	public static String PrefixStaffer = GRAY + "» " + API.GRAY;
 	
-	@SuppressWarnings("deprecation")
 	public static void sendStaffer(Player Jogador, String Menssagem) {
 		for (Player Jogadores : Bukkit.getOnlinePlayers()) {
 			if (Jogadores != Jogador) {

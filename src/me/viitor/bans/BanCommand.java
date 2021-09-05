@@ -9,14 +9,11 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import me.viitor.API.HorarioAPI;
-import me.viitor.bans.API;
-import me.viitor.bans.Config;
 import me.viitor.configuração.cfGrupo;
 import me.viitor.twitter.TweetAPI;
 
 public class BanCommand implements CommandExecutor {
 
-	@SuppressWarnings({ "deprecation" })
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		
 		if (!(sender instanceof Player)) {

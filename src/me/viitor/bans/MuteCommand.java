@@ -8,8 +8,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import me.viitor.API.HorarioAPI;
-import me.viitor.bans.API;
-import me.viitor.bans.Config;
 import me.viitor.configuração.cfGrupo;
 import me.viitor.twitter.TweetAPI;
 

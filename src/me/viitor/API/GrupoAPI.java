@@ -89,7 +89,6 @@ public class GrupoAPI {
 	  }
 	public static void checarVip(Player p){
 		Bukkit.getScheduler().scheduleSyncRepeatingTask(Main.getPlugin(), new Runnable() {
-			@SuppressWarnings("deprecation")
 			public void run() {
 			
 				if(cfTempGrupo.pegargrupo().get("tempgrupos." + p.getUniqueId() + ".Dia") != null){
@@ -204,7 +203,6 @@ public class GrupoAPI {
 	}
 		public static void checarVipOffline(OfflinePlayer p){
 			Bukkit.getScheduler().scheduleSyncRepeatingTask(Main.getPlugin(), new Runnable() {
-				@SuppressWarnings("deprecation")
 				public void run() {
 				
 					if((cfTempGrupo.pegargrupo().getInt("tempgrupos." + p.getUniqueId() + ".Dia") < CalendarioAPI.PegarCalendario(Calendario.Dia) 

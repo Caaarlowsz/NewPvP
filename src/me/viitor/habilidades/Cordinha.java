@@ -91,7 +91,6 @@ public class Cordinha extends EntityFishingHook implements Listener {
   public void die() {
   }
 
-  @SuppressWarnings("deprecation")
 public void spawn(Location location) {
     this.sb = ((Snowball)this.owner.getBukkitEntity().launchProjectile(
       Snowball.class));

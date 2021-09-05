@@ -19,7 +19,6 @@ import me.viitor.configuração.cfGrupo;
 
 public class HeadsMenu implements Listener {
 	
-	@SuppressWarnings("deprecation")
 	public static void setarInventario(Player p) {
 		
 		Inventory inv = Bukkit.createInventory(null, 54, "§6Heads");

@@ -20,7 +20,6 @@ public class LobbyCommand implements CommandExecutor {
 		  p.sendPluginMessage(Main.getPlugin(), "BungeeCord", out.toByteArray());
 	 }
 	 
-	@SuppressWarnings("deprecation")
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
 		Player p = (Player) sender;
